@@ -1,5 +1,7 @@
 FROM ubuntu:latest AS build
 
+WORKDIR C:\Users\rodri\OneDrive\Documentos\Cursos\Rocketseat\Java\todolist
+
 RUN apt-get update
 RUN apt-get install openjdk-17-jdk -y
 
